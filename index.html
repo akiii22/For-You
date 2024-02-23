@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do</title>
+  <link rel="icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon_io/favicon-16x16.png" type="image/x-icon">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <div class="to-do">
+      <h2>To-Do List <img src="images/icon.png" alt=""></h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Lets Go">
+      </div>
+      <button title="Add" class="cssbuttons-io-button" onclick="add()">
+        <svg height="25" width="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"></path><path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="currentColor"></path></svg>
+        <span>Add</span>
+      </button>
+      <ul id="list-container">
+       <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+        -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
